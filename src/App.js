@@ -9,6 +9,7 @@ import SignupOption from './Pages/Signup Option/SignupOption';
 import Signup from './Pages/Signup/Signup';
 import Login from './Pages/Login/Login';
 import Footer from './Components/Footer/Footer';
+import SignupDetails from './Pages/Signup Details/SignupDetails';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Onboarding />} />
           <Route path="/signupLogin" element={<SignupOption />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/signupDetails" element={<SignupDetails />} />
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
