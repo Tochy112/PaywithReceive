@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 import './SignupOption.css'
-import logo from '../../images/brand.png'
+import logo from '../../Images/brand.png'
 
-function signOption() {
+function signupOption() {
   return (
     <div className='option-wrapper'>
 
@@ -29,4 +29,4 @@ function signOption() {
   )
 }
 
-export default signOption
+export default signupOption
