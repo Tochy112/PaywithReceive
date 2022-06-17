@@ -1,5 +1,5 @@
 import React from 'react';
-import './signOption.css'
+import './SignupOption.css'
 import logo from '../../images/brand.png'
 
 function signOption() {

@@ -1,12 +1,24 @@
 import './App.css';
-import Option from './pages/sign-option-page/signOption';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import SignupOption from './pages/sign-option-page/SignupOption';
+
 
 function App() {
   return (
     <div className="App">
-      <Option />
+      <BrowserRouter>
+        <Routes>
+          
+          <Route path="/signupLogin" element={<SignupOption />} />
+          
+        </Routes>
+       
+      </BrowserRouter>
     </div>
   );
 }
-
-export default App;
+export default App
