@@ -1,6 +1,7 @@
 import React from 'react'
 import './SignupOption.css'
-import logo from '../../Images/brand.png'
+import logo from '../../Assets/Images/brand.png'
+import {Link} from 'react-router-dom'
 
 function signupOption() {
   return (
@@ -11,9 +12,9 @@ function signupOption() {
       </div>
       <div className='option-div'>
         <div className='btn-div'>
-          <button className='btn1'>sign Up</button>
+          <Link to='/signup'><button className='btn1'>Sign Up</button></Link>
           <p>Already a member?</p>
-          <button className='btn2'>Log In</button>
+          <Link to='/login'><button className='btn2'>Log In</button></Link>
         </div>
 
          <div className='terms-div'>
