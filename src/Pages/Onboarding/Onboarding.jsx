@@ -21,6 +21,11 @@ const Onboarding = () => {
         </div>
       </div>
         </div>
+       <Footer
+            backgroundColor="#ffc93c"
+            rightButtonLabel="Next"
+            rightButtonPress={() => true}
+          />
         
         </View>
        <View key="2">
@@ -30,7 +35,11 @@ const Onboarding = () => {
         </View>
       </ViewPager>
     </View>
-   
+   <Footer
+            backgroundColor="#07689f"
+            rightButtonLabel="Next"
+            rightButtonPress={() => true}
+          />
   )
 }
 
