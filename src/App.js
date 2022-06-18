@@ -10,10 +10,10 @@ import Signup from './Pages/Signup/Signup';
 import Login from './Pages/Login/Login';
 import Footer from './Components/Footer/Footer';
 import SignupDetails from './Pages/Signup Details/SignupDetails';
-
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Onboarding />} />
@@ -27,5 +27,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
