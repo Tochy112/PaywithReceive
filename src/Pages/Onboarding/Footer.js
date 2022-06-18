@@ -19,12 +19,12 @@ const Footer = ({
     <View
       style={{
         flexDirection: 'row',
-        justifyContent: 'flex-end',
-        height: HEIGHT,
-        backgroundColor,
-        opacity: 0.6,
-        alignItems: 'center',
-        paddingHorizontal: FOOTER_PADDING
+    justifyContent: leftButtonLabel ? 'space-between' : 'flex-end',
+    height: HEIGHT,
+    backgroundColor,
+    opacity: 0.6,
+    alignItems: 'center',
+    paddingHorizontal: FOOTER_PADDING
       }}
     >
       <RoundedButton label={rightButtonLabel} onPress={rightButtonPress} />
