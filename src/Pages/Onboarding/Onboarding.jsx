@@ -42,8 +42,10 @@ const pagerRef = useRef(null);
            </div>
          <Footer
             backgroundColor="#07689f"
-            rightButtonLabel="Next"
-            rightButtonPress={() => true}
+    leftButtonLabel="Back"
+    leftButtonPress={() => {
+      handlePageChange(0);
+    }}
           />
         </View>
       </ViewPager>
