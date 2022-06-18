@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { Feather as Icon } from '@expo/vector-icons';
 
-const Page = ({ backgroundColor, iconName, title }) => {
+const Pajes = ({ backgroundColor, iconName, title }) => {
   return (
     <View
       style={{
@@ -23,4 +23,4 @@ const Page = ({ backgroundColor, iconName, title }) => {
   );
 };
 
-export default Page;
+export default Pajes;
