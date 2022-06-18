@@ -28,10 +28,12 @@ const pagerRef = useRef(null);
       </div>
         </div>
        <Footer
-            backgroundColor="#ffc93c"
-            rightButtonLabel="Next"
-            rightButtonPress={() => true}
-          />
+  backgroundColor="#ffc93c"
+  rightButtonLabel="Next"
+  rightButtonPress={() => {
+    handlePageChange(1);
+  }}
+/>
         
         </View>
        <View key="2">
