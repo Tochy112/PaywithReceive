@@ -6,6 +6,8 @@ import RoundedButton from './RoundedButton';
 
 const Footer = ({
   backgroundColor,
+  leftButtonLabel = false,
+  leftButtonPress = false,
   rightButtonLabel = false,
   rightButtonPress = false
 }) => {
