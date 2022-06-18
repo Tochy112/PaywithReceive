@@ -4,9 +4,12 @@ import meju from './images/photo.png'
 import peju from './images/ON.png'
 import Footer from './Footer';
 import React, { useRef } from 'react';
+import { useNavigation } from '@react-navigation/native';
+
 
 
 const Onboarding = () => {
+const navigation = useNavigation();
 const pagerRef = useRef(null);
 
   const handlePageChange = pageNumber => {
@@ -15,7 +18,7 @@ const pagerRef = useRef(null);
 
   return (
 <View style={{ flex: 1 }}>
-      <ViewPager style={{ flex: 1 }}>
+      <ViewPager style={{ flex: 1 } initialPage={0} ref={pagerRef}}>
         <View key="1">
          
         <div className="onboard">
