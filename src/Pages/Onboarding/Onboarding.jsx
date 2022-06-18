@@ -7,7 +7,10 @@ import meju from './images/photo.png'
 
 const Onboarding = () => {
   return (
-    
+<View style={{ flex: 1 }}>
+      <ViewPager style={{ flex: 1 }}>
+        <View key="1">
+         <Paje>
         <div className="onboard">
           <img src={meju}/>
       <div className='dots'>
@@ -22,8 +25,10 @@ const Onboarding = () => {
         </div>
       </div>
         </div>
-     
-
+        </Paje>
+        </View>
+      </ViewPager>
+    </View>
    
   )
 }
