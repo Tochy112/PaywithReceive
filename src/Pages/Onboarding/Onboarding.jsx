@@ -2,7 +2,7 @@ import React from 'react'
 import './Onboarding.css'
 import meju from './images/photo.png'
 import peju from './images/ON.png'
-
+import Footer from './Footer';
 
 
 
