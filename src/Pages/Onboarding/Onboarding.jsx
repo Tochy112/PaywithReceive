@@ -1,15 +1,13 @@
 import React from 'react'
 import './Onboarding.css'
 import meju from './images/photo.png'
-import { View} from 'react-native'
-import {ViewPager} from '@react-native-community/ViewPager'
+
+
 
 
 const Onboarding = () => {
   return (
-        <View style ={{flex:1}}>
-          <ViewPager style={{flex:1}}>
-            <View key="1">
+    
         <div className="onboard">
           <img src={meju}/>
       <div className='dots'>
@@ -24,9 +22,6 @@ const Onboarding = () => {
         </div>
       </div>
         </div>
-        </View>
-        </ViewPager>
-        </View>
      
 
    
