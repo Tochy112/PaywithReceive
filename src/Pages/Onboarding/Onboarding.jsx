@@ -3,10 +3,16 @@ import './Onboarding.css'
 import meju from './images/photo.png'
 import peju from './images/ON.png'
 import Footer from './Footer';
-
+import React, { useRef } from 'react';
 
 
 const Onboarding = () => {
+const pagerRef = useRef(null);
+
+  const handlePageChange = pageNumber => {
+    pagerRef.current.setPage(pageNumber);
+  };
+
   return (
 <View style={{ flex: 1 }}>
       <ViewPager style={{ flex: 1 }}>
