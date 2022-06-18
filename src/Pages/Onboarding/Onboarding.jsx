@@ -1,6 +1,7 @@
 import React from 'react'
 import './Onboarding.css'
 import meju from './images/photo.png'
+import peju from './images/ON.png'
 
 
 
@@ -10,14 +11,9 @@ const Onboarding = () => {
 <View style={{ flex: 1 }}>
       <ViewPager style={{ flex: 1 }}>
         <View key="1">
-         <Paje>
+         
         <div className="onboard">
           <img src={meju}/>
-      <div className='dots'>
-        <div className="dot active"></div>
-        <div className="dot"></div>
-        <div className="dot"></div>
-      </div>
       <div className="steps">
         <div className='step'>
           <div className='gradient'></div>
@@ -25,7 +21,12 @@ const Onboarding = () => {
         </div>
       </div>
         </div>
-        </Paje>
+        
+        </View>
+       <View key="2">
+            <div className="nboard">
+          <img src={peju}/>
+           </div>
         </View>
       </ViewPager>
     </View>
