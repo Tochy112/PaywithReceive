@@ -14,7 +14,7 @@ const Onboarding = () => {
          
         <div className="onboard">
           <img src={meju}/>
-      <div className="steps">
+ 
         <div className='step'>
           <div className='gradient'></div>
           <p>Skip long queues, send and receive money anywhere</p>
@@ -32,14 +32,15 @@ const Onboarding = () => {
             <div className="nboard">
           <img src={peju}/>
            </div>
-        </View>
-      </ViewPager>
-    </View>
-   <Footer
+         <Footer
             backgroundColor="#07689f"
             rightButtonLabel="Next"
             rightButtonPress={() => true}
           />
+        </View>
+      </ViewPager>
+    </View>
+   
   )
 }
 
