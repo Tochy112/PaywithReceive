@@ -1,12 +1,11 @@
 
+
 import React from 'react';
-import { View, useWindowDimensions, Text } from 'react-native';
-
-
+import { View, useWindowDimensions, Text ,StyleSheet} from 'react-native';
+import Grid from 'react-native-grid-component';
 import RoundedButton from './RoundedButton';
 
 const Footer = ({
-  title,
   backgroundColor,
   leftButtonLabel = false,
   leftButtonPress = false,
@@ -14,7 +13,7 @@ const Footer = ({
   rightButtonPress = false
 }) => {
   const windowWidth = useWindowDimensions().width;
-  const HEIGHT = windowWidth * 0.21;
+  const HEIGHT = windowWidth * 0.11;
   const FOOTER_PADDING = windowWidth * 0.1;
 
   return (
@@ -26,11 +25,10 @@ const Footer = ({
         backgroundColor,
         opacity: 1,
         alignItems: 'center',
-        paddingHorizontal: FOOTER_PADDING
+        paddingHorizontal: FOOTER_PADDING,
+        
       }}
-      
     >
-  
       {leftButtonLabel && (
         <RoundedButton label={leftButtonLabel} onPress={leftButtonPress} />
       )}
@@ -39,4 +37,7 @@ const Footer = ({
   );
 };
 
+
+
 export default Footer;
+
