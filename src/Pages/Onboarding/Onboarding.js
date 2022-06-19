@@ -2,12 +2,9 @@ import { View , Text} from 'react-native';
 
 import ViewPager from '@react-native-community/viewpager';
 import React from 'react'
-import meju from './images/photo.png'
-import peju from './images/ON.png'
 import Footer from './Footer';
 import  { useRef } from 'react';
 import { useNavigation } from '@react-navigation/native';
-import Page from './Page';
 import PIMAGE from './PIMAGE'
 import AIMAGE from './AIMAGE'
 
@@ -31,10 +28,10 @@ const pagerRef = useRef(null);
         <View key="2">
           <PIMAGE />
               <Text style={{color:'#FFFFFF', fontSize: 32, fontWeight:'bold',lineHeight:40,letterSpacing:1,fontFamily:"Roboto",
-    bottom:40}}>Skip long queues, send and receive money anywhere</Text>
+    bottom:40,padding:2,backgroundColor:"#ffc93c"}}>Skip long queues, send and receive money anywhere</Text>
           <Footer
-        
-             backgroundColor="#07689f"
+
+             backgroundColor="#ffc93c"
             leftButtonLabel="Back"
             leftButtonPress={() => {
               handlePageChange(0);
