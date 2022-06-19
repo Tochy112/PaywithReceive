@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-
 import Meju2 from './images/ON.png'
 const styles = StyleSheet.create({
 container:{
