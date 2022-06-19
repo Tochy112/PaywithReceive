@@ -14,5 +14,4 @@ const RoundedButton = ({ label, onPress }) => {
     </TouchableOpacity>
   );
 };
-
 export default RoundedButton;
