@@ -27,11 +27,10 @@ const pagerRef = useRef(null);
         </View>
         <View key="2">
           <PIMAGE />
-              <Text style={{color:'#FFFFFF', fontSize: 32, fontWeight:'bold',lineHeight:40,letterSpacing:1,fontFamily:"Roboto",
-    bottom:40,padding:2,backgroundColor:"#ffc93c"}}>Skip long queues, send and receive money anywhere</Text>
+                <Text style={{color:'#FFFFFF', fontSize: 32, fontWeight:'bold',lineHeight:40,letterSpacing:1,fontFamily:"Roboto",
+    backgroundColor:"#343330" }}>Skip long queues, send and receive money anywhere</Text>
           <Footer
-
-             backgroundColor="#ffc93c"
+             backgroundColor="#343330"
             leftButtonLabel="Back"
             leftButtonPress={() => {
               handlePageChange(0);
