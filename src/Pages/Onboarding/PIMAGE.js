@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
 import Meju from './images/photo.png'
-
 const styles = StyleSheet.create({
 container:{
   flex:1,
