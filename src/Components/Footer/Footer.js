@@ -18,7 +18,7 @@ const Footer = () => {
         <a href='easypayments.receive@gmail.com'target='_blank'><AiTwotoneMail/></a>
       </div>
       <div className='copyright'>
-          <small>Copyright&copy;2022 - StartUp22 All Rights Reserved</small>
+          <small>RECEIVE&copy; 2022 - All Rights Reserved</small>
       </div>
     </footer>
   )
