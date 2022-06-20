@@ -33,18 +33,18 @@ const Login = () => {
           </div>
         </div>
         <div class="login">
-          <a href="#">
+          <a href="/">
             <input type="submit" value="Log In" required />
           </a>
         </div>
         <p class="p">
           Don't have an account?
-          <a href="#" target="_blank">
+          <a href="/" target="_blank">
             Sign Up
           </a>
         </p>
         <p class="p">
-          <a href="#" target="_blank" >
+          <a href="/" target="_blank" >
             Forgot Password?
           </a>
         </p>

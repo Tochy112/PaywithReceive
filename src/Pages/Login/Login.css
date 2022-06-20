@@ -74,9 +74,7 @@ input[type="submit"]:hover {
     font-family: "Lato", sans-serif;
     font-size: 15px;
     color: white;
-    -webkit-transition: background, padding 2s ease;
-    -moz-transition: background, padding 2s ease;
-    -o-transition: background, padding 2s ease;
+    
 }
 
 p a {
