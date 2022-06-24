@@ -6,7 +6,7 @@ const Login = () => {
     <div className="container">
       <h1>Login to your account</h1>
       <p class="p">Securely login to your account</p>
-      <form action="" class="form">
+      <form class="form">
         <div class="row">
           <div class="col">
             <input
@@ -33,23 +33,24 @@ const Login = () => {
           </div>
         </div>
         <div class="login">
-          <a href="/">
+          <a href="/dashboard">
             <input type="submit" value="Log In" required />
           </a>
         </div>
         <p class="p">
           Don't have an account?
-          <a href="/" target="_blank">
+          <a href="/signup" target="_blank">
             Sign Up
           </a>
         </p>
         <p class="p">
-          <a href="/" target="_blank" >
+          <a href="/forgotPassword" target="_blank" >
             Forgot Password?
           </a>
         </p>
       </form>
     </div>
+    
   );
 }
 

@@ -3,6 +3,7 @@ import './SignupOption.css'
 import logo from '../../Assets/Images/brand.png'
 import {Link} from 'react-router-dom'
 
+
 function signupOption() {
   return (
     <div className='option-wrapper'>
@@ -25,7 +26,6 @@ function signupOption() {
             </p>
          </div>
       </div>
-
     </div>
   )
 }
