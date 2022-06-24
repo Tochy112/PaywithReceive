@@ -10,6 +10,12 @@ import Signup from './Pages/Signup/Signup';
 import Login from './Pages/Login/Login';
 import Footer from './Components/Footer/Footer';
 import SignupDetails from './Pages/Signup Details/SignupDetails';
+import Dashboard from './Pages/Dashboard/Dashboard';
+import ForgotPassword from './Pages/Forgot Password/ForgotPassword';
+import BusinessDetails2 from './Pages/Business Details2/BusinessDetails2';
+import BusinessDetails4 from './Pages/Business Details4/BusinessDetails4';
+import BusinessDetails5 from './Pages/Business Details5/BusinessDetails5';
+
 
 function App() {
   return (
@@ -21,9 +27,17 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/signupDetails" element={<SignupDetails />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/busDetails2" element={<BusinessDetails2 />} />
+          <Route path="/busDetails4" element={<BusinessDetails4 />} />
+          <Route path="/busDetails5" element={<BusinessDetails5 />} />
+          <Route path="/forgotPassword" element={<ForgotPassword />} />
         </Routes>
         <Footer />
       </BrowserRouter>
+
+
+      
     </div>
   );
 }

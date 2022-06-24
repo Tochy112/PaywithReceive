@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.css' 
 import {AiFillFacebook} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
@@ -21,7 +21,7 @@ const Footer = () => {
           <small>RECEIVE&copy; 2022 - All Rights Reserved</small>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
