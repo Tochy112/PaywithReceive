@@ -24,8 +24,8 @@ const Login = () => {
             <input
               type="password"
               placeholder="Password"
-              required
               id="password"
+              required
               maxlength="20"
               minlength="5"
               pattern="(?=.*d)(?=.*[a - z])(?.*[A - Z])(.8,)"
@@ -33,24 +33,25 @@ const Login = () => {
           </div>
         </div>
         <div class="login">
-          <a href="/dashboard">
-            <input type="submit" value="Log In"  />
-          </a>
+          <button>
+            <a href="/dashboard" rel="noreferrer">
+              Log In
+            </a>
+          </button>
         </div>
         <p class="p">
           Don't have an account?
-          <a href="/signup" target="_blank">
+          <a href="/signup" rel="noreferrer">
             Sign Up
           </a>
         </p>
         <p class="p">
-          <a href="/forgotPassword" target="_blank" >
+          <a href="/forgotPassword" rel="noreferrer">
             Forgot Password?
           </a>
         </p>
       </form>
     </div>
-    
   );
 }
 
