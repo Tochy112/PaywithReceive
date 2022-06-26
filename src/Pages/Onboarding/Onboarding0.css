@@ -14,27 +14,7 @@ article {
     width: 100%;
 }
 
-.tics .rext {
 
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(15px);
-    margin-left: 120px;
-    margin-right: 120px;
-    border-color: aqua;
-}
-
-.rext {
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    bottom: 150px;
-    color: rgb(80, 80, 211);
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: fit-content;
-
-}
 
 .info{
     position: absolute;

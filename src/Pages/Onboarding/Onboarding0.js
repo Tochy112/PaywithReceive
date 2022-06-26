@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Onboarding0 = () => {
   return (
     <article >
-    <div className='tics'><h1 className='rext' >Next</h1></div> 
+     
      <div className='rics'> 
     <Link to="/yome">
      <img  src={meju2} alt="image"/> <p className='info'>Skip long queues, send and receive money anywhere</p>
