@@ -5,5 +5,4 @@ const Yome = () => {
     <div>Home</div>
   )
 }
-
 export default Yome
