@@ -1,5 +1,4 @@
 import React from 'react'
-import './Onboarding.css'
 
 const Onboarding = () => {
   return (

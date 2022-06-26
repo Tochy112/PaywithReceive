@@ -20,6 +20,7 @@ import BusinessDetails5 from './Pages/Business Details5/BusinessDetails5';
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Onboarding />} />
@@ -41,5 +42,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
