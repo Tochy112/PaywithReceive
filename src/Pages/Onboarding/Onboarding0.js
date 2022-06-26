@@ -12,7 +12,6 @@ const Onboarding0 = () => {
       <div className='shadow'></div></Link>
     
       </div>
-   
     </article>
 
   )
