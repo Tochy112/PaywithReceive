@@ -5,16 +5,11 @@ import './Onboarding.css'
 const Onboarding = () => {
  
   return (
-     <article >
- 
+    <article >
      <div className='pics'> 
-    <Link to="/onboarding0">
-     <img  src={meju} alt="image"/> <h1 className='pext' >tap anywhere</h1></Link>
-    
-     </div>
-     
+      <Link to="/onboarding0"><img  src={meju} alt="image"/><h1 className='pext' >tap anywhere</h1></Link>
+     </div> 
     </article>
-
   )
 }
 
