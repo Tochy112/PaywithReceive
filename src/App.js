@@ -18,8 +18,8 @@ function App() {
       
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<Onboarding0 />} />
-          {/*<Route path="/" element={<Onboarding />} />*/}
+      
+          <Route path="/" element={<Onboarding />} />
           <Route path="/signupLogin" element={<SignupOption />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/signupDetails" element={<SignupDetails />} />
