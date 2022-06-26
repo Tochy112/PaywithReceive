@@ -1,0 +1,44 @@
+article {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.tics{
+    position: fixed;
+}
+.rics {
+    position: fixed;
+}
+
+.rics img {
+    width: 100%;
+}
+
+.info{
+    position: absolute;
+        width: 410px;
+        height: 114px;
+        left: -3px;
+        bottom: 10px;
+    text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 29px;
+        
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.02em;
+    
+        color: blue;
+}
+
+.shadow{
+    position: absolute;
+        width: 426px;
+        height: 267px;
+        left: 0px;
+        bottom: -60px;
+        opacity: 0.9;
+        background: linear-gradient(356.89deg, #332F2F 30%, rgba(51, 47, 47, 0) 98.22%);
+}
