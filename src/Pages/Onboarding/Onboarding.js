@@ -12,9 +12,7 @@ const Onboarding = () => {
      <img  src={meju} alt="image"/> <h1 className='pext' >tap anywhere</h1></Link>
     
      </div>
-   
-      
-       
+     
     </article>
 
   )
