@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react'
 import { useForm } from 'react-hook-form'
-import logo from '../../Assets/images/brand.png'
+import logo from '../../Assets/Images/brand.png'
 import { v4 as uuidv4 } from 'uuid';
 import './SignupDetails.css'
 
@@ -58,7 +58,7 @@ const SignupDetails = () => {
         <div className="auth_form-container_fields-content">
           <div className='auth_form-container_fields-content__logo'>
             <img src={logo} alt="" style={{ height:'100px', width:'100px', margin:'10px' }} />
-            <h1 className='first' style={{color:'#f7941d', fontSize:'40px' }} >re</h1><h1 className='sec' style={{fontSize:'40px', color:'#2f3e91', display: 'inline'}} >ceive</h1>
+            <h1 className='first' style={{color:'#f7941d', fontSize:'40px', marginTop:'-10px' }} >re</h1><h1 className='sec' style={{fontSize:'40px', color:'#2f3e91', display: 'inline', marginTop:'-10px'}} >ceive</h1>
           </div>
            <p>Tell us a bit about you</p>
            <form onSubmit={handleSubmit(submitHandler)}>
