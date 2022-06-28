@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import meju from "./images/ON.png"
+import meju from "../../Assets/Images/ON.png"
 import './Onboarding.css'
 const Onboarding = () => {
  
