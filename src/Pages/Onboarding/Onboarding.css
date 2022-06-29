@@ -5,7 +5,7 @@ article{
     overflow:hidden;
 }
 
-img {
+.pics img {
     width:50vw;
     height: 78vh;
 }
