@@ -1,9 +1,13 @@
 import './App.css';
 import {
-  BrowserRouter,
-  Routes,
+  BrowserRouter as Router,
+  Switch,
   Route,
+  Redirect,
+  Routes,
+  Navigate,
 } from "react-router-dom";
+import Onboarding0 from './Pages/Onboarding/Onboarding0';
 import Onboarding from './Pages/Onboarding/Onboarding';
 import SignupOption from './Pages/Signup Option/SignupOption';
 import Signup from './Pages/Signup/Signup';
@@ -17,12 +21,16 @@ import BusinessDetails4 from './Pages/Business Details4/BusinessDetails4';
 import BusinessDetails5 from './Pages/Business Details5/BusinessDetails5';
 
 
+
 function App() {
+  
+  
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Routes>
-          <Route path="/" element={<Onboarding />} />
+          <Route exact path="/" element={<Onboarding />} />
+          <Route path="/onboarding0" element={<Onboarding0 />} />
           <Route path="/signupLogin" element={<SignupOption />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/signupDetails" element={<SignupDetails />} />
@@ -34,12 +42,8 @@ function App() {
           <Route path="/forgotPassword" element={<ForgotPassword />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-
-
-      
+      </Router>
     </div>
   );
 }
-
 export default App;
