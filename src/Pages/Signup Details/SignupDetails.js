@@ -3,7 +3,12 @@ import './SignupDetails.css'
 
 const SignupDetails = () => {
   return (
-    <div>SignupDetails</div>
+    <div className='container'>
+      <h1>Profile</h1>
+      div
+
+      
+    </div>
   )
 }
 

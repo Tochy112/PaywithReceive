@@ -1,5 +1,7 @@
 import React from 'react'
 import './Login.css'
+import { Link } from 'react-router-dom';
+
 
 const Login = () => {
   return (
@@ -34,21 +36,16 @@ const Login = () => {
         </div>
         <div class="login">
           <button>
-            <a href="/dashboard" rel="noreferrer">
-              Log In
-            </a>
+            <Link to ='/dashboard'>Log In</Link>
           </button>
         </div>
         <p class="p">
           Don't have an account?
-          <a href="/signup" rel="noreferrer">
-            Sign Up
-          </a>
+          <Link to ='/signup'> Sign Up</Link>
         </p>
         <p class="p">
-          <a href="/forgotPassword" rel="noreferrer">
-            Forgot Password?
-          </a>
+  
+          <Link to='/forgotPassword'>Forgot Password?</Link>
         </p>
       </form>
     </div>
