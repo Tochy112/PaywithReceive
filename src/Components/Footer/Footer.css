@@ -1,23 +1,26 @@
-footer{
+footer {
     /* styling for the footer background*/
     background: #2F3E91;
-    width:100vw;
-    height: 6rem;    
+    width: 100vw;
+    height: 6rem;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+
+
 /* class for the react icons*/
-.leoo{
+
+.leoo {
     display: flex;
     justify-content: center;
     gap: 1rem;
-   margin-bottom: 0.8rem;
-   position: relative;
-   top: 1rem;
-
+    margin-bottom: 0.8rem;
+    position: relative;
+    top: 1rem;
 }
-.leoo a{
+
+.leoo a {
     background: white;
     color: var(--color-white);
     font-size: 1.3rem;
@@ -25,19 +28,21 @@ footer{
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
-
 }
-.leoo a:hover{
+
+.leoo a:hover {
     background: transparent;
     color: red;
     border-color: var(--color-bg);
-
 }
+
+
 /*class for copyright*/
-.copyright{
+
+.copyright {
     color: white;
     position: relative;
-   top: 1rem;
+    top: 1rem;
 }
 
 .footdet {
