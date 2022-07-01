@@ -22,26 +22,26 @@ const Navbar = ({clickNav, setClickNav}) => {
     const [showNav,setShowNav] = useState(false)
     // const [clickNav,setClickNav] = useState(false)
 
-    const items  = [{icon: home,title: 'Home', url:'/'},{icon: order,title: 'Order', url:'/order'},]
-    const payments  = [{icon: transaction,title: 'Transaction', url:'/transaction'},
-                        {icon: customer,title: 'Customers', url:'/customers'},
-                        {icon: refunds,title: 'Refunds', url:'/refunds'},
-                        {icon: payouts,title: 'Payouts', url:'/payouts'},
-                        {icon: makePayments,title: 'Make Payment', url:'/makePayments'},]
+    // const items  = [{icon: home,title: 'Home', url:'/'},{icon: order,title: 'Order', url:'/order'},]
+    // const payments  = [{icon: transaction,title: 'Transaction', url:'/transaction'},
+    //                     {icon: customer,title: 'Customers', url:'/customers'},
+    //                     {icon: refunds,title: 'Refunds', url:'/refunds'},
+    //                     {icon: payouts,title: 'Payouts', url:'/payouts'},
+    //                     {icon: makePayments,title: 'Make Payment', url:'/makePayments'},]
 
-    const transfers = [{icon: transfer,title: 'Transfers', url:'/transfers'},
-                        {icon: customer,title: 'Recipients', url:'/recipients'},
-                        {icon: balance,title: 'Balance', url:'/balance'}]
+    // const transfers = [{icon: transfer,title: 'Transfers', url:'/transfers'},
+    //                     {icon: customer,title: 'Recipients', url:'/recipients'},
+    //                     {icon: balance,title: 'Balance', url:'/balance'}]
 
-    const supports = [{icon: compliant,title: 'Compliant', url:'/compliant'},
-                        {icon: product,title: 'Products', url:'/product'},
-                        {icon: Invoice,title: 'Invoices', url:'/invoice'}]
+    // const supports = [{icon: compliant,title: 'Compliant', url:'/compliant'},
+    //                     {icon: product,title: 'Products', url:'/product'},
+    //                     {icon: Invoice,title: 'Invoices', url:'/invoice'}]
 
 
 
   return (
         <nav className='mb-12'>
-            <div className='fixed top-0 w-full left-0 right-0 h-[53px] z-30 bg-[#D9D9D9]  flex items-center justify-between px-3 md:px-6'>
+            <div className='w-full  h-[53px] z-30 bg-[#D9D9D9]  flex items-center justify-between px-3 md:px-6'>
                 <div className='flex items-center '>
                     <img className='cursor-pointer ' onClick={() => setShowNav(!showNav)} src={menuToggle} alt="Menu" />
                     <p className='ml-[12px] font-medium text-[16px] leading-[19px]'>Home</p>
@@ -54,7 +54,7 @@ const Navbar = ({clickNav, setClickNav}) => {
             </div>
 
                 {/* mobile dropdown section */}
-            <div className={showNav ? `fixed top-[53px] left-0 z-20 w-[130px] bg-[#FBB44A] pb-[76px] ease-in duration-300 ` : `fixed top-[-100%] left-0 ease-in duration-300 `}>
+            {/* <div className={showNav ? `fixed top-[53px] left-0 z-20 w-[130px] bg-[#FBB44A] pb-[76px] ease-in duration-300 ` : `fixed top-[-100%] left-0 ease-in duration-300 `}>
                 <img onClick={() => setShowNav(!showNav)} className='absolute top-2 right-2 ' src={downArrow} alt="navdropdown" />
 
                 <ul className='pt-[49px] text-white'>
@@ -92,7 +92,7 @@ const Navbar = ({clickNav, setClickNav}) => {
                         </Link>
                     ))}
                 </ul>
-            </div>
+            </div> */}
         </nav>
   )
 }
