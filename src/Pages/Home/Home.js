@@ -7,6 +7,11 @@ import third from "../../Assets/Images/3.png"
 import fourth from "../../Assets/Images/4.png"
 import fifth from "../../Assets/Images/5.png"
 import sixth from "../../Assets/Images/6.png"
+import seven from "../../Assets/Images/new1.png"
+import eight from "../../Assets/Images/new2.png"
+import nine from "../../Assets/Images/new3.png"
+
+
 const Home = () => {
   return (
     <body>
@@ -40,7 +45,7 @@ const Home = () => {
 
         {/*SECOND SECTION*/}
 
-        <section className="container second-section">
+        <section className=" container second-section">
             <h2> Why use Receive account for your Transaction </h2>
              <div className="reasons">
               <article className= "offers">
@@ -82,6 +87,51 @@ const Home = () => {
 
              </div>
         </section>
+
+        {/*Third-section*/}
+        <section className="third-section">
+        <h2>Why you need Receive account for your Transaction </h2>
+        <div className="speech-1">
+          <div className= "speech-11"> 
+          <img src={seven} alt=""/>
+          </div>
+            <article className="speech">
+             <h3>Fast and reliable payment</h3>
+             <p>With this platform, you may conduct quick transactions with your friends,
+              business associates, and others in a matter of seconds without experiencing any errors.</p>
+            </article>
+      {/*2ns speech*/}
+        </div>
+        <div className="speech-1">
+            <article className="speech2">
+             <h3>Developer friendly</h3>
+             <p>With this platform, you may conduct quick transactions with your friends,
+              business associates, and others in a matter of seconds without experiencing any errors.</p>
+            </article>
+
+             <div className= "speech-22"> 
+          <img src={eight} alt=""/>
+          </div>
+        </div>
+        {/*3rd speech*/}
+        <div className="speech-1">
+          <div className= "speech-23"> 
+          <img src={nine} alt=""/>
+          </div>
+            <article className="speech">
+             <h3>Financial Freedom</h3>
+             <p>With this platform, you may conduct quick transactions with your friends,
+              business associates, and others in a matter of seconds without experiencing any errors.</p>
+            </article>
+        
+        </div>
+        </section>
+        {/*4th section*/}
+        <section className="last-section">
+          <h3>Accepted payment Methods</h3>
+
+        </section>
+
     </body>
   )
 }
