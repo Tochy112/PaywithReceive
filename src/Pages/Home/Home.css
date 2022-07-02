@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 .first-section{
     background: rgba(41, 37, 97, 0.93);
        border-bottom-right-radius: 25%;
@@ -112,4 +115,132 @@
                 margin-top: -2rem;
                 margin-left: 1rem;
             }
+                       
+            .icons3 img {
+                           
+                margin-top: -0.5rem;           
+                margin-left: 1.5rem;
+                padding-bottom: 0.5rem;
+                        }
+            .icons4 img{
+                margin-left: 3rem;
+                padding-bottom:1rem;
+            }
+          .icons5 img{
+            margin-left:1.5rem;
+            margin-top: -0.5rem;
+          }
+          .offers h3{
+            color: #312B2B;
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight:bolder;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+          }
+         .second-section h2{
+        font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 40px;
+            line-height: 31px;
+            text-align: center;
+            color: #504848;
+            line-height: 3rem;
+            padding-bottom: 2rem;
+         }
+         .second-section{
+           background: white;
+           padding-bottom: 45rem;
+         }
+
+         /*third section*/
+
+         .third-section{
+            background: #FCF8F8;
+           padding-bottom: 9rem;
+         }
+         .third-section h2{
+            text-align: center;
+            padding-top: 3rem;
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 42px;
+                line-height: 42px;
+                text-align: center;
+            
+                color: #504848;
+         }
+         .speech-1{
+            display: grid;
+            grid-template-columns: 50% 50%;
+         }
+         .speech{
+            text-align: justify;
+            margin-top: 8rem;
+            margin-right: 14rem;
+      
+         }
+         .speech h3{
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 33px;
+                line-height: 43px;
+                padding-bottom: 0.5rem;    
+            color: #504848;
+         }
+         .speech p{
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 31px;
+                text-align:start;
+                color: #504848;
+                word-spacing: 0.1rem;
+         }
+         .speech-11{
          
+        margin-top: 4rem;
+                margin-left: 11rem;
+         }
+                 .speech2 {
+                     text-align: justify;
+                     margin-top: 6.5rem;
+                     margin-left: 14rem;
+        
+                 }
+                                 .speech2 h3 {
+                                     font-family: 'DM Sans';
+                                     font-style: normal;
+                                     font-weight: bold;
+                                     font-size: 33px;
+                                     line-height: 43px;
+                                     padding-bottom: 0.5rem;
+                                     color: #504848;
+                                 }
+                
+                                 .speech2 p {
+                                     font-family: 'DM Sans';
+                                     font-style: normal;
+                                     font-weight: 500;
+                                     font-size: 24px;
+                                     line-height: 31px;
+                                     text-align: start;
+                                     color: #504848;
+                                     word-spacing: 0.1rem;
+                                 }
+
+
+        .speech-23{
+              margin-top:3.5rem;
+        }
+        /*last section*/
+        .last-section{
+            background: #FAAF40;
+                box-shadow: 11px 20px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 0px;
+        }
