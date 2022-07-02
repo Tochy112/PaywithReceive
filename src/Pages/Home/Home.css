@@ -1,6 +1,6 @@
-.overall{
+.first-section{
     background: rgba(41, 37, 97, 0.93);
-       border-bottom-right-radius: 15%;
+       border-bottom-right-radius: 25%;
        }
 
        .general{
@@ -61,6 +61,7 @@
                 padding: 1rem 2.5rem;
                 border-radius: 20px;
                 border: 1px solid;
+                transition: all 400ms ease;
            }
            .anchor:hover{
             font-size: 20px;
@@ -74,4 +75,41 @@
             margin-top: 5rem;
           }
 
+          /*second section*/
+                  .reasons {
+                      display: grid;
+                      grid-template-columns: repeat(3, 1fr);
+                      gap: 4.5rem;
+                     
+                  }
+                    
+                  .offers {
+                    margin-top: 2rem;
+                    margin-right: 20rem;
+                    margin-left: -15rem;
+                            background: #CAE2E3;
+                            box-shadow: 17px 4px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 20px;
+                            padding: 2rem;
+                            border: 1px solid transparent;
+                            transition: var(--transition);
+                               text-align: center;
+                            width: 236px;
+                                height: 209px;
+                          transition: all 400ms ease;
+                        }
+         .offers:hover {
+            border: 3px solid;
+             border-color: #156b6e;
+             background: transparent;
+            cursor: pointer;
+         }
+            .icons{
+              margin-bottom: 1rem;
+              margin-left: 2.5rem;
+            }
+            .icons2 img{
+                margin-top: -2rem;
+                margin-left: 1rem;
+            }
          

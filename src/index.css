@@ -26,8 +26,8 @@ code {
     height: 50px;
     margin-top: 40px;
 }
-/*.container {
-  width: var(--container-width-lg);
+.container {
+ 
   margin: 0 auto;
 }
 
@@ -36,4 +36,4 @@ code {
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-}*/
+}
