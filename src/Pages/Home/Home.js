@@ -10,6 +10,18 @@ import sixth from "../../Assets/Images/6.png"
 import seven from "../../Assets/Images/new1.png"
 import eight from "../../Assets/Images/new2.png"
 import nine from "../../Assets/Images/new3.png"
+import pay1 from "../../Assets/Images/Payment Method (1).png"
+import pay2 from "../../Assets/Images/Payment Method (2).png"
+import pay3 from "../../Assets/Images/Payment Method (3).png"
+import pay4 from "../../Assets/Images/Payment Method (4).png"
+import pay5 from "../../Assets/Images/Payment Method (5).png"
+import pay6 from "../../Assets/Images/Payment Method (6).png"
+import pay7 from "../../Assets/Images/Payment Method (7).png"
+import pay8 from "../../Assets/Images/Payment Method (8).png"
+import pay9 from "../../Assets/Images/Payment Method (9).png"
+import pay10 from "../../Assets/Images/Payment Method (10).png"
+import pay11 from "../../Assets/Images/Payment Method (11).png"
+
 
 
 const Home = () => {
@@ -127,9 +139,26 @@ const Home = () => {
         </div>
         </section>
         {/*4th section*/}
-        <section className="last-section">
+        <section className=" last-section">
+          
+          <article className= "iconss">
           <h3>Accepted payment Methods</h3>
-
+            <div className='last-icons'>
+        <a href=''target='_blank' ><img src={pay1}/></a>
+        <a href=' 'target='_blank'><img src={pay2}/></a>
+        <a href=' 'target='_blank'><img src={pay3}/></a>
+        <a href=''target='_blank'><img src={pay4}/></a>
+        <a href=' 'target='_blank'><img src={pay5}/></a>
+         <a href=''target='_blank' ><img src={pay6}/></a>
+         </div>
+         <div className="last-icons1">
+        <a href=' 'target='_blank'><img src={pay7}/></a>
+        <a href=' 'target='_blank'><img src={pay8}/></a>
+        <a href=''target='_blank'><img src={pay9}/></a>
+        <a href=' 'target='_blank'><img src={pay10}/></a>
+          <a href=' 'target='_blank'><img src={pay11}/></a>
+      </div>
+      </article>
         </section>
 
     </body>

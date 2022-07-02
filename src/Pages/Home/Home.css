@@ -159,7 +159,7 @@ body{
 
          .third-section{
             background: #FCF8F8;
-           padding-bottom: 9rem;
+           padding-bottom: 3rem;
          }
          .third-section h2{
             text-align: center;
@@ -240,7 +240,49 @@ body{
         }
         /*last section*/
         .last-section{
+            background: white;
+        }
+        .iconss{
             background: #FAAF40;
                 box-shadow: 11px 20px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 0px;
+                width: max-content;
+                margin-left:18rem;
+                padding-top: 1rem;
+                padding-bottom: 3rem;
+                padding-left:10rem;
+                padding-right: 10rem;
+                    top: 3456px;
         }
+        .iconss h3{
+            text-align: center;
+        
+            padding-bottom: 2rem;
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 33px;
+                line-height: 43px;
+                /* identical to box height */
+            color: #504848;
+        }
+
+        .last-icons{
+                
+                
+                    display: flex;
+                    justify-content: center;
+                    gap: 3rem;
+                    margin-bottom: 0.8rem;
+                   padding-bottom: 1rem;
+                    top: 1rem;
+        }
+                .last-icons1 {
+        
+                    display: flex;
+                    justify-content: center;
+                    gap: 3rem;
+                    margin-bottom: 0.8rem;
+                  
+                    top: 1rem;
+                }
