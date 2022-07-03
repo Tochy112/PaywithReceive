@@ -289,7 +289,8 @@ body{
                                             background: rgba(41, 37, 97, 0.93);
                                             border-bottom-right-radius: 10%;
                                             border-bottom-left-radius: 10%;
-                                            height: 30rem;
+                                            height: 34rem;
+                                            margin-bottom: 5rem;
                                         }
                                     .general {
                                             display: grid;
@@ -333,7 +334,7 @@ body{
                        font-family: 'Poppins';
                        font-style: normal;
                        font-weight: bolder;
-                       font-size: 6px;
+                       font-size: 13px;
                        color: #32230D;
                        padding: 0.5rem 0.5rem;
                        border-radius: 20px;
@@ -343,7 +344,7 @@ body{
                    }
         
                    .anchor:hover {
-                       font-size: 10px;
+                       font-size: 13px;
                        background: transparent;
                        color: #FAAF40;
                        border: 3px solid;
@@ -358,5 +359,133 @@ body{
                    .cash .cashimg{
                     width:100%;
                    }
-        }
+                   /*second*/
+                  
+                   
+                    .reasons {
+                    
+                            display: grid;
+                            grid-template-columns: repeat(2, 2fr);
+                            gap: 0rem;
+                        
+                  }
+                  .second-section h2{
+                    font-size:larger;
+                    text-align: justify;
+                  margin-left: -6rem;
+                   margin-right: 10rem;
+                    line-height: 1rem;
+                    margin-bottom: -2rem;
+                  }
+                  .offers{
+                    width: 170px;
+                        height: 209px;
+                        margin-left: -8rem;
+                        margin-right: 10rem;
+                  }
+                                  .icons img {
+                                    
+                                      margin-bottom: 1rem;
+                                      margin-left: -1rem;
+                                      margin-right: -3.5rem;
+                                      padding-bottom: 1rem;
+                                  }
+                                  
+                
+                                  .icons2 img {
+                                      margin-top: -2rem;
+                                      margin-left: 0.5rem;
+                                      padding-bottom: 1.5rem;
+        
+
+                                  }
+                                  
+                
+                                  .icons3 img {
+                
+                                      margin-top: -0.5rem;
+                                      margin-left: -0rem;
+                                      padding-bottom: 0.5rem;
+                                  }
+                
+                                  .icons4 img {
+                                      margin-left: 1rem;
+                                      padding-bottom: 1rem;
+                                  }
+                
+                                  .icons5 img {
+                                      margin-left: 0rem;
+                                      margin-top: -0.5rem;
+                                  }
+                                  .icons6 img{
+                                    padding-bottom: 1rem;
+                                  }
+                                   .offers h3{
+            color: #312B2B;
+            font-family: 'DM Sans';
+                font-style: normal;
+                font-weight:bolder;
+                font-size: 19px;
+                line-height: 20px;
+                text-align:center;
+                margin-left: -0.5rem;
+          }
+                  /*third-section*/
+                  .third-section h2{
+                    font-size: larger;
+                    margin-top: -0.5rem;
+                  }
+                  .speech {
+                     text-align:start;
+                     margin-top: 1rem;
+                     
+                     margin-right: 0rem;
+        
+                 }
+                  .speech h3{
+               margin-left: -1rem;
+                font-weight: bold;
+                font-size: 23px;
+                line-height: 33px;
+                padding-bottom: 0.5rem;    
+            color: #504848;
+         }
+         .speech-11{
+            margin-left: -0.5rem;
+            margin-top: -1rem;
+         }
+         .speech-11 img{
+            height: 100%;
+         }
+         .speech p{
+            font-weight: 500;
+                font-size: 19px;
+                line-height: 21px;
+                text-align: start;
+                color: #504848;
+                word-spacing: 0.1rem;
+         }
+         .speech2{
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+         }
+           .speech2 h3{
+               margin-left: -13rem;
+                font-weight: bold;
+                font-size: 23px;
+                line-height: 33px;
+                padding-bottom: 0.5rem;    
+            color: #504848;
+         }
+         .speech2 p{
+            margin-left: -13rem;
+            font-weight: 500;
+                font-size: 19px;
+                line-height: 21px;
+                text-align: start;
+                color: #504848;
+                word-spacing: 0.1rem;
+         }
+                 
+                }
                                 
