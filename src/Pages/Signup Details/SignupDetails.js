@@ -47,18 +47,9 @@ const SignupDetails = () => {
     reset();
   }
 
-  
-
-
 
   return (
-<<<<<<< HEAD
-    <div className='container'>
-      <h1>Profile</h1>
-      div
-
-      
-=======
+    
     <div className="auth_form-container">
       {/* <p>{ userDetails }</p> */}
       <div className="auth_form-container_fields">
@@ -183,9 +174,9 @@ const SignupDetails = () => {
             
            </form>
         </div>
-      </div>
->>>>>>> abc21f56ae3c8382850ae22eb714dd481368e913
-    </div>
+  </div>
+
+  </div>
   )
 }
 
