@@ -38,7 +38,7 @@ const Home = () => {
            <article className="Part1">
           <p >receive is a webpayment platform that is trusted and proven for usage by developers and business people.
            The API is used by developers and businesspeople to process payments for their enterprises. includes awesome innovations 
-           like cryptocurrency payments and QR code scanners.S
+           like cryptocurrency payments and QR code scanners.
           </p>
            </article>
            <div className="Part3">
