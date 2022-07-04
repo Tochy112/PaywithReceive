@@ -24,6 +24,8 @@ import DeveloperCode from "./Pages/DeveloperCode/DeveloperCode"
 import Services from "./Pages/Services/Services";
 import AccountSettings from "./Pages/AccountSettings/AccountSettings"
 import Home from './Pages/Home/Home'
+import Support from './Pages/Support/Support';
+import AboutUs from './Pages/About us/AboutUs'
 
 function App() {
   const location=useLocation()
@@ -35,6 +37,8 @@ function App() {
 
 <Routes>
 <Route path="/" element={<Home />} />
+<Route path="/about" element={<AboutUs />} />
+<Route path="/support" element={<Support />} />
 <Route path="/signupLogin" element={<SignupOption />} />
 <Route path="/signup" element={<Signup />} />
 <Route path="/signupDetails" element={<SignupDetails />} />

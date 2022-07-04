@@ -1,16 +1,16 @@
 import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import MainNav from '../../Components/Main Nav/MainNav'
-import './AboutUs.css'
+import './Support.css'
 
-const AboutUs = () => {
+const Support = () => {
   return (
     <div>
-      <MainNav />
-      AboutUs
-      <Footer/>
+        <MainNav />
+        Support
+        <Footer />
     </div>
   )
 }
 
-export default AboutUs
+export default Support
