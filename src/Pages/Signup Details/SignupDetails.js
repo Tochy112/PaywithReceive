@@ -61,7 +61,7 @@ const SignupDetails = () => {
             <h1 className='first' style={{color:'#f7941d', fontSize:'40px', marginTop:'-10px' }} >re</h1><h1 className='sec' style={{fontSize:'40px', color:'#2f3e91', display: 'inline', marginTop:'-10px'}} >ceive</h1>
           </div>
            <p>Tell us a bit about you</p>
-           <form onSubmit={handleSubmit(submitHandler)}>
+           <form onSubmit={submitHandler}>
             <div className='auth_form-container_fields-content_input'>
               <label htmlFor='fullname'>Full Name</label>
               <input 
