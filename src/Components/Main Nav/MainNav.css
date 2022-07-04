@@ -3,12 +3,12 @@
 }
 
 .buttons div{
-    font-size:6.5px;
+    font-size:7px;
 }
 
 @media screen and (min-width: 900px){
     .links h2 {
-    font-size:14px;
+    font-size:13px;
     }
 
     .buttons div{
